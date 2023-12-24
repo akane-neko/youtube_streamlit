@@ -1,0 +1,50 @@
+Streamlit
+
+streamlit の起動
+
+streamlit run main.py
+
+github
+https://github.co.jp/
+https://github.com/
+akane-neko
+gitakane1217
+
+Streamlit
+Streamlit sharing
+https://share.streamlit.io/
+GitHub連携
+
+
+開発ツールの公開の仕方
+
+Streamlit sharingにサインイン（Github連携）
+https://share.streamlit.io/
+
+githubにログイン
+https://github.com/
+
+[New]ボタンで新しいリポジトリを作成
+https://github.com/new
+
+Repository name　でリポジトリの名前を付ける
+「Public」の設定で
+
+[Create repojitory]でリポジトリ作成
+次に開かれる画面でhttpsの公開パスが表示されているのでコピー
+
+https://github.com/akane-neko/youtube_streamlit.git
+
+
+git側にリポジトリを初期化してローカルと結びつける
+git init
+git remote add origin https://github.com/akane-neko/youtube_streamlit.git
+
+requirements.txtの作成
+アプリケーションで使用している外部ライブラリを記載するテキスト
+streamlit==1.28.2
+（ライブラリ名）==(使用したいバージョン　入力しなければ最新バージョンが使われる)
+
+ライブラリ名とバージョンは
+pip freeze
+で一覧でる
